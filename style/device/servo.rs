@@ -487,6 +487,7 @@ impl Device {
                     || m == mime::IMAGE_JPEG
                     || m == "image/x-icon"
                     || m == "image/webp"
+                    || m == "image/jxl"
             },
             _ => false,
         }
